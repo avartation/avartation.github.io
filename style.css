@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Extrafett';
+  src: url('./assets/Extrafett.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dreiviertelfett';
+  src: url('./assets/Dreiviertelfett.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Extrafett', sans-serif;
+  text-transform: uppercase;
+  background: #111;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #222;
+}
+
+.intro, .portfolio {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.video-card {
+  margin-bottom: 2rem;
+}
+
+video {
+  max-width: 100%;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  font-size: 0.9rem;
+}
